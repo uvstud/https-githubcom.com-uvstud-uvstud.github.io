@@ -1,0 +1,76 @@
+.mainbox{
+	background-color: green;
+	width: 800px;
+	margin: auto;
+} 
+/*pamata laukam kur buus darbiiba pieskir zalu pamatakrasu + definee lielimu */
+
+#menu{
+	background-color: orange;
+}
+#menu ul li a{
+	text-decoration: none; /*nonem pasvitrojumu*/
+	color: #000; /* pivieno kraasu*/
+}
+
+
+#menu ul li{
+	list-style: none; /* nonem punktinus (markejumu)*/
+	display: inline;  /* noliek vienaa rindaa */
+
+}
+
+
+.leftside{							/* */
+	background-color: yellow;
+	width: 100px;
+	float: left;
+}
+
+.main{
+	background-color: purple;
+	width: 590px;
+	float: left; /* centaalaas dalas centreejums -nraada no kreizzs puses*/
+	padding: 5px;
+
+}
+
+.rightside{
+	background-color: lightblue;
+	width: 100px;
+	float: right;
+}
+
+.footer{
+	background-color: brown;
+	clear: both; /*reseto lai neitekmetos no citiem iestatījumiem*/
+	text-align: center; /*iecenteejam tekstu kaajenee*/
+}
+.img{
+	width: 500px;
+	height: 600px;
+
+}
+
+/*responsiivais dizains pec ekraana izmeera*/
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+  #menu ul li{
+	list-style: none; /* nonem punktinus (markejumu)*/
+	display: block; /*ekraans tiek iesaldeets*/
+	text-align: center;
+	}
+	.leftside, .rightside, .footer, .main{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+	.mainbox{
+		width: 100%;
+	}
+}
+
+
+
