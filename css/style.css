@@ -7,19 +7,28 @@
 
 #menu{
 	background-color: orange;
+	text-align: center;
+	height: 50px;
+
 }
 #menu ul li a{
 	text-decoration: none; /*nonem pasvitrojumu*/
 	color: #000000; /* pivieno kraasu*/
 	font-size: bold;
+
 }
 
 
 #menu ul li{
 	list-style: none; /* nonem punktinus (markejumu)*/
 	display: inline;  /* noliek vienaa rindaa */
+	position: relative;
+	top: 20px;
 
+}
 
+#menu ul li:hover{
+	text-decoration:underline;   /*uzbraucot parādās liinija*/
 }
 
 
@@ -42,6 +51,15 @@
 	color: red;
 }
 
+table {
+	width: 50%;
+	background-color: none;
+}
+table th{
+	text-align: right;
+
+}
+
 .rightside{
 	background-color: none;
 	width: 100px;
@@ -49,9 +67,9 @@
 }
 
 .footer{
-	background-color: brown;
+	background-color: lightblue;
 	clear: both; /*reseto lai neitekmetos no citiem iestatījumiem*/
-	text-align: center; /*iecenteejam tekstu kaajenee*/
+	text-align: right; /*iecenteejam tekstu kaajenee*/
 }
 .img{
 	width: 500px;
@@ -80,5 +98,6 @@
 }
 
 */
+
 
 
