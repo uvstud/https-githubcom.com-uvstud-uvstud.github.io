@@ -1,0 +1,17 @@
+
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #b92c28;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: red;
+}

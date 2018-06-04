@@ -2,29 +2,123 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.1"> 
+	<link href="./css/reset.css" rel="stylesheet">
+	<link href = "./libs/bootstrap/css/bootstrap.css" rel ="stylesheet">
+	<script src="./libs/jQuery/jquery2.1.4.min.js"></script>
+	<script src="./libs/bootstrap/js/bootstrap.js"> </script>
+
+    <!-- Latest compiled and minified CSS
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+-->
 	<style type="text/css"></style>
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<titl>Kontakti</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<title>Kontakti</title>
 </head>
 <body>
-	
-</body> <div class="mainbox">
-	<div id="menu">
-		<ul>
-			<li><a href="./index.html">Jaunumi</a></li>
-			<li><a href="./galerija.html">Galerija</a></li>
-			<li><a href="./galerija_video.html">Galerija Video</a></li>
-			<li><a href="./sazina.html">Saziņa</a></li>
-			<li><a href="./kontakti.html">Kontakti</a></li>
-		</ul>
-	</div>	
-	<div class="leftside">kreisa puse</div>
-	<div class="main">
-		<a href="+37229231902">29231902</a>
+
+	 <div class="mainbox">
+		<section class="container">
+		    <header></header>
+<!-- Navigation -->
+			<nav class="navbar navbar-expand-sm navbar-default">
+				<!-- Brand/logo -->
+				<a class="navbar-brand" href="index.html">
+					<img src="./Images/mymafin.jpg" alt="logo" style="width:60px;">
+				</a>
+
+				<!-- Links -->
+				<ul class="navbar-nav">
+					<li class="nav-item" >
+						<a class="nav-link"  href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="galerija.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contacts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sazina.html">Write My</a>
+					</li>
+				</ul>
+			</nav>
+
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">MafinMen</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Sākums</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+						<li class="active"><a href="kontakti.html">Kontakti</a></li>
+						<li><a href="sazina.html">Sazina</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<!-- JUMBOTRON -->
+			<div class="jumbotron text-center">
+				<div class="container">
+					<h1>Welcome To My Website</h1>
+					<p>Mafini garšo visiem un visi par tiem sapņo :) !</p>
+					<a href="sazina.html" class="btn btn-primary">Iepazīsimies</a>
+				</div>
+			</div>
+
+		</section>
 	</div>
-	<div class="rightside">kreisa puse</div>
-	<div class="footer">kajene</div>	
- </div>
+<!--Meet the Tema-->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Meet the TEAM</h1>
+			</div>
+            <hr>
+		</div>
+	</div>
+
+<!-- Contact Cards   -->
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="./Images/m5.jpg"></img>
+                    <div class="card-body">
+                        <h4 class="card-title">Uldis</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="./Images/m6.jpg"></img>
+                    <div class="card-body">
+                        <h4 class="card-body">Dacuks</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width:300px">
+                <img class="card-img-top" src="./Images/m7.jpg"></img>
+                <div class="card-body">
+                    <h4 class="card-title">Amanda</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+ </body>
 </html>
 
