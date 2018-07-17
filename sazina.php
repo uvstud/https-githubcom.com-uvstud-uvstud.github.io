@@ -1,14 +1,21 @@
+<?php
+//ieslēdz php kļuudu attelosanos
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
+//pievieno klases
+require_once ("./Class/Template.php");
+
+Template_class::getLibs();  // pievieno visas bilbiotekas kuras nepieciešams pieslēgt
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">>
-	<meta name="viewport" content="width=device-width, initial-scale=0.1"> 
-	<link href="./css/reset.css" rel="stylesheet">
-	<link href = "./libs/bootstrap/css/bootstrap.css" rel ="stylesheet">
-	<script src="libs/jQuery/jquery-3.3.1.js"></script>
-	<script src="./libs/bootstrap/js/bootstrap.js"> </script>
-	<style type="text/css"></style>
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.1">
 	<script src="js/main.js"></script>
 	<script>
         $("document").ready(function() {
@@ -25,12 +32,37 @@
         });
 	</script>
 
-	<title>Sazina</title>
 
+	<title>Sazina</title>
 
 </head>
 
 <body>
+    <div class="mainbox">
+        <section class="container">
+    <!-- Navigation-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="#">MfinMen</a>
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index">Sākums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakti.html">Kontakti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sazina.php">Saziņa</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </section>
 
 		<!--<div class="main">-->
 			<!--<form action="" method="">-->

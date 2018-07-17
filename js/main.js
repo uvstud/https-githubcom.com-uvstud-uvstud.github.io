@@ -24,3 +24,8 @@ function getSum(number1, number2) {
          $(".oki").fadeIn();
      };
  }
+
+ // function Parliecinats() {
+ //    alert("Vai esi parliecinats ?");
+ //
+ // }
